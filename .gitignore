@@ -5,11 +5,9 @@
 **/.env
 **/.env.*
 
-# Agent / challenge logs (may contain session metadata)
-log.txt
-
 # Generated predictions
 /output.csv
+*_pred.csv
 
 # Python
 __pycache__/
@@ -42,8 +40,5 @@ Thumbs.db
 .vscode/
 *.swp
 *~
-
-# Archives / local packaging
-*.zip
-code.zip
-.chat_transcript
+# evidence observation cache (rebuilt from dataset/)
+code/.cache/
